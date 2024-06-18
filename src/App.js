@@ -1,29 +1,27 @@
 import React from 'react';
-import Header from './components/templates/header';
-import Footer from './components/templates/footer';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './components/templates/Home';
+import Catalog from './components/templates/Catalog';
+import Favorites from './components/templates/Favorites';
+import Cart from './components/templates/Cart';
+import Product from './components/templates/Product';
+import Order from './components/templates/Order';
+import '../src/components/templates/App.css';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <Header />
-      <main className="main-content">
-        <div className="search-container">
-          <input type="text" placeholder="Поиск по товарам..." className="search-input" />
-        </div>
-        <section className="product-grid">
-          <div className="product-card">
-            <img src="path_to_product_image.jpg" alt="Product" className="product-image" />
-            <h3 className="product-title">Название товара</h3>
-            <p className="product-description">Описание товара</p>
-            <span className="product-price">Цена</span>
-          </div>
-          {/* Добавьте больше карточек товаров */}
-        </section>
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/catalog" element={<Catalog />} />
+        <Route path="/favorites" element={<Favorites />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/product/:id" element={<Product />} />
+        <Route path="/order" element={<Order />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;

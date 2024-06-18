@@ -1,11 +1,11 @@
 import React from 'react';
-import '../css/footer.css';
+import './footer.css';
 
 const Footer = () => {
   return (
-      <footer className="footer">
-        <p>© 2023 Электроника. Все права защищены.</p>
-      </footer>
+    <footer className="footer">
+      <p>© 2023 Электроника. Все права защищены.</p>
+    </footer>
   );
 };
 

@@ -1,0 +1,124 @@
+/* Catalog.css */
+.catalog-page {
+    padding: 40px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.search-bar input[type="text"] {
+    flex-grow: 1;
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.search-bar select {
+    width: auto;
+    padding: 12px 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.product-item {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.product-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.product-item:hover img {
+    transform: scale(1.05);
+}
+
+.product-item h2 {
+    padding: 15px;
+    font-size: 18px;
+    color: #333;
+}
+
+.product-item p {
+    padding: 0 15px 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.product-item button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.product-item button:hover {
+    background-color: #0056b3;
+}
+
+.view-details {
+    display: block;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.view-details:hover {
+    background-color: #218838;
+}
+
+.no-products {
+    color: #777;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.go-home {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.go-home a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.go-home a:hover {
+    text-decoration: underline;
+}

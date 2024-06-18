@@ -1,0 +1,265 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Samsung Galaxy A8",
+      "price": 349.99,
+      "quantity": 10,
+      "image": "https://a.allegroimg.com/original/115993/5dba2d4d4883ac2aeb096f9375b5/Samsung-A8-2018-A530F-DUALSIM-32-4GB-CZARNY-IP68",
+      "description": "Ультратонкий смартфон Samsung Galaxy A8 с 6.7-дюймовым AMOLED экраном, обеспечивающим яркие цвета и четкие детали. Оснащен двухъядерным процессором, 6GB оперативной памяти и 128GB встроенной памяти, расширяемой до 512GB. Камера 64MP с функцией夜景模式, идеально подходит для съемки в условиях низкой освещенности.",
+      "features": [
+        "6.7\" AMOLED Display",
+        "64MP Camera",
+        "6GB RAM, 128GB Storage"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Apple MacBook Pro 13",
+      "price": 1299.99,
+      "quantity": 5,
+      "image": "https://apple-market.net/files/uploads/apple-macbook-pro-flexgate.jpg",
+      "description": "MacBook Pro 13\" с технологией Apple M1, обеспечивающий высочайшую производительность и энергоэффективность. 13-дюймовый Retina дисплей с технологией True Tone, 8GB совмещенной памяти и 256GB SSD. Оснащен Touch Bar и Touch ID для удобства использования.",
+      "features": [
+        "Apple M1 Chip",
+        "Retina Display with True Tone",
+        "8GB Unified Memory, 256GB SSD"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Samsung Galaxy Tab S7",
+      "price": 649.99,
+      "quantity": 3,
+      "image": "https://a66.ru/catalogue/563/8232_large.jpeg",
+      "description": "Планшет Samsung Galaxy Tab S7 с 11-дюймовым LTPS TFT дисплеем, поддерживающим технологию S Pen. Оснащен процессором Qualcomm Snapdragon 865 Plus, 6GB оперативной памяти и 128GB встроенной памяти, расширяемой до 1TB. Идеален для работы и развлечений.",
+      "features": [
+        "11\" LTPS TFT Display",
+        "Qualcomm Snapdragon 865 Plus",
+        "6GB RAM, 128GB Storage"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Sony WH-1000XM4",
+      "price": 349.99,
+      "quantity": 8,
+      "image": "https://avatars.mds.yandex.net/get-goods_pic/10638893/hata879b0c85570ba6521cbf3c492b8c48c/600x600",
+      "description": "Наушники Sony WH-1000XM4 с высококлассной системой шумоподавления, обеспечивающей чистейший звук. Поддерживают быструю зарядку, 30 часов автономной работы и функцию аудиоподстройки по голосу. Удобны в использовании и идеально подходят для длительных прослушиваний.",
+      "features": [
+        "Advanced Noise Cancellation",
+        "30 Hours Battery Life",
+        "Quick Charge"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Canon EOS R5",
+      "price": 3899.99,
+      "quantity": 15,
+      "image": "https://avatars.mds.yandex.net/get-goods_pic/11580232/hat867c958b451d559bede83a225cd25d7c/600x600",
+      "description": "Фотоаппарат Canon EOS R5 с полнокадровой 45MP CMOS сенсором, поддерживающим 8K RAW видеосъемку и 4K 120p. Оснащен системой автофокусировки Dual Pixel CMOS AF II с 1053 автоматическими зонами. Идеален для профессиональных фотографов и видеооператоров.",
+      "features": [
+        "45MP Full-Frame Sensor",
+        "8K RAW Video, 4K 120p",
+        "Dual Pixel CMOS AF II"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Dell XPS 15",
+      "price": 1599.99,
+      "quantity": 7,
+      "image": "https://digitik.ru/upload/iblock/ff3/ff3ee851223427adc68e431d533f3e77.png",
+      "description": "Ноутбук Dell XPS 15 с 15.6-дюймовым 4K UHD+ дисплеем, оснащен процессором Intel Core i7, 16GB RAM и 512GB SSD. Идеален для профессионалов, ищущих высокую производительность и качественное изображение.",
+      "features": [
+        "15.6\" 4K UHD+ Display",
+        "Intel Core i7",
+        "16GB RAM, 512GB SSD"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "NVIDIA GeForce RTX 3080",
+      "price": 699.99,
+      "quantity": 4,
+      "image": "https://cdn.mos.cms.futurecdn.net/oskwAZyTdiJF9wQCYsV9Uh.jpg",
+      "description": "Видеокарта NVIDIA GeForce RTX 3080 с 10GB GDDR6X памяти, поддерживающая технологии Ray Tracing и DLSS. Идеально подходит для геймеров и профессионалов, требующих высокую графическую производительность.",
+      "features": [
+        "10GB GDDR6X",
+        "Ray Tracing, DLSS",
+        "High-End Gaming Performance"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Logitech G Pro Wireless",
+      "price": 149.99,
+      "quantity": 9,
+      "image": "https://avatars.mds.yandex.net/get-goods_pic/10637446/hatfa3cb5a052a35a62def75ab8e8c00efe/600x600",
+      "description": "Беспроводная игровая мышь Logitech G Pro Wireless с технологией Lightspeed, обеспечивающая низкую задержку и высокую точность. Оснащена 25K Hero датчиком и поддерживает RGB-подсветку.",
+      "features": [
+        "25K Hero Sensor",
+        "Lightspeed Wireless",
+        "RGB Lighting"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Samsung 860 EVO SSD",
+      "price": 109.99,
+      "quantity": 12,
+      "image": "https://i.ebayimg.com/images/g/lPUAAOSwOXliqlSe/s-l1600.jpg",
+      "description": "SSD Samsung 860 EVO с интерфейсом SATA III, 500GB ёмкости. Обеспечивает быстрое чтение и запись данных, идеально подходит для улучшения производительности компьютера.",
+      "features": [
+        "500GB Capacity",
+        "SATA III Interface",
+        "Fast Read/Write Speeds"
+      ]
+    },
+    {
+      "id": "10",
+      "name": " ",
+      "price": 249.99,
+      "quantity": 11,
+      "image": "https://i.simpalsmedia.com/marketplace/products/original/84965e78f43e58f6fee06a2b0aa0aebf.jpg",
+      "description": "Монитор Philips 276E8VJSB с 27-дюймовым IPS дисплеем, поддерживающим разрешение 4K UHD. Обеспечивает широкий угол обзора и точные цвета, идеально подходит для профессиональной работы и развлечений.",
+      "features": [
+        "27\" IPS Display",
+        "4K UHD Resolution",
+        "Wide Viewing Angles"
+      ]
+    }
+  ],
+  "favorites": [
+    {
+      "id": "2",
+      "name": "Apple MacBook Pro 13",
+      "price": 1299.99,
+      "quantity": 5,
+      "image": "https://apple-market.net/files/uploads/apple-macbook-pro-flexgate.jpg",
+      "description": "MacBook Pro 13\" с технологией Apple M1, обеспечивающий высочайшую производительность и энергоэффективность. 13-дюймовый Retina дисплей с технологией True Tone, 8GB совмещенной памяти и 256GB SSD. Оснащен Touch Bar и Touch ID для удобства использования.",
+      "features": [
+        "Apple M1 Chip",
+        "Retina Display with True Tone",
+        "8GB Unified Memory, 256GB SSD"
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "id": "10",
+      "name": " ",
+      "price": 249.99,
+      "quantity": 1,
+      "image": "https://i.simpalsmedia.com/marketplace/products/original/84965e78f43e58f6fee06a2b0aa0aebf.jpg",
+      "description": "Монитор Philips 276E8VJSB с 27-дюймовым IPS дисплеем, поддерживающим разрешение 4K UHD. Обеспечивает широкий угол обзора и точные цвета, идеально подходит для профессиональной работы и развлечений.",
+      "features": [
+        "27\" IPS Display",
+        "4K UHD Resolution",
+        "Wide Viewing Angles"
+      ],
+      "feature": "4K UHD Resolution"
+    },
+    {
+      "id": "10",
+      "name": " ",
+      "price": 249.99,
+      "quantity": 1,
+      "image": "https://i.simpalsmedia.com/marketplace/products/original/84965e78f43e58f6fee06a2b0aa0aebf.jpg",
+      "description": "Монитор Philips 276E8VJSB с 27-дюймовым IPS дисплеем, поддерживающим разрешение 4K UHD. Обеспечивает широкий угол обзора и точные цвета, идеально подходит для профессиональной работы и развлечений.",
+      "features": [
+        "27\" IPS Display",
+        "4K UHD Resolution",
+        "Wide Viewing Angles"
+      ],
+      "feature": "4K UHD Resolution"
+    },
+    {
+      "id": "1",
+      "name": "Samsung Galaxy A8",
+      "price": 349.99,
+      "quantity": 1,
+      "image": "https://a.allegroimg.com/original/115993/5dba2d4d4883ac2aeb096f9375b5/Samsung-A8-2018-A530F-DUALSIM-32-4GB-CZARNY-IP68",
+      "description": "Ультратонкий смартфон Samsung Galaxy A8 с 6.7-дюймовым AMOLED экраном, обеспечивающим яркие цвета и четкие детали. Оснащен двухъядерным процессором, 6GB оперативной памяти и 128GB встроенной памяти, расширяемой до 512GB. Камера 64MP с функцией夜景模式, идеально подходит для съемки в условиях низкой освещенности.",
+      "features": [
+        "6.7\" AMOLED Display",
+        "64MP Camera",
+        "6GB RAM, 128GB Storage"
+      ],
+      "feature": "64MP Camera"
+    }
+  ],
+  "orders": [
+    {
+      "id": "4e3e",
+      "address": "Приколямбусы",
+      "fullName": "Егор",
+      "paymentMethod": "payPal"
+    },
+    {
+      "id": "7002",
+      "address": "фыв",
+      "fullName": "фыв",
+      "paymentMethod": "creditCard",
+      "cart": [],
+      "totalCost": 0
+    },
+    {
+      "id": "0c62",
+      "address": "Улица Пукшина, Дом калатушкина 1488 )))))",
+      "fullName": "Коляка",
+      "paymentMethod": "cashOnDelivery",
+      "cart": [],
+      "totalCost": 0
+    },
+    {
+      "id": "c790",
+      "address": "Улица Пукшина, Дом калатушкина 1488 )))))",
+      "fullName": "asd",
+      "paymentMethod": "payPal",
+      "cart": [],
+      "totalCost": 0
+    },
+    {
+      "id": "af86",
+      "address": "фыв",
+      "fullName": "фыв",
+      "paymentMethod": "creditCard",
+      "cart": [],
+      "totalCost": 0
+    },
+    {
+      "id": "19fa",
+      "address": "Улица Пукшина, Дом калатушкина 1488 )))))",
+      "fullName": "Коляка",
+      "paymentMethod": "payPal",
+      "cart": [],
+      "totalCost": 0
+    },
+    {
+      "id": "e80b",
+      "address": "Улица Пукшина, Дом калатушкина 1488 )))))",
+      "fullName": "1",
+      "paymentMethod": "payPal",
+      "cart": [],
+      "totalCost": 0
+    },
+    {
+      "id": "4f61",
+      "address": "Улица Пукшина, Дом калатушкина 1488 )))))",
+      "fullName": "Коляка",
+      "paymentMethod": "payPal",
+      "cart": [],
+      "totalCost": 0
+    },
+    {
+      "id": "8c3f",
+      "address": "Улица Пукшина, Дом калатушкина 1488 )))))",
+      "fullName": "Коляка",
+      "paymentMethod": "creditCard",
+      "cart": [],
+      "totalCost": 0
+    }
+  ]
+}
