@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
+import Header from './components/templates/header';
+import Footer from './components/templates/footer';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <main className="main-content">
+        <div className="search-container">
+          <input type="text" placeholder="Поиск по товарам..." className="search-input" />
+        </div>
+        <section className="product-grid">
+          <div className="product-card">
+            <img src="path_to_product_image.jpg" alt="Product" className="product-image" />
+            <h3 className="product-title">Название товара</h3>
+            <p className="product-description">Описание товара</p>
+            <span className="product-price">Цена</span>
+          </div>
+          {/* Добавьте больше карточек товаров */}
+        </section>
+      </main>
+      <Footer />
     </div>
   );
 }

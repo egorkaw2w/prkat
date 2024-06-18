@@ -1,0 +1,44 @@
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.logo-text {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    fill: #fff;
+}
