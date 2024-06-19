@@ -4,6 +4,7 @@ import axios from 'axios';
 import Header from './header';
 import './App.css';
 import { motion } from 'framer-motion';
+import Footer from './footer.js'
 
 
 const Favorites = () => {
@@ -25,7 +26,7 @@ const Favorites = () => {
   const removeFromFavorites = async (productId) => {
     try {
       await axios.delete(`http://localhost:3001/favorites/${productId}`);
-      fetchFavoriteProducts(); 
+      fetchFavoriteProducts();
     } catch (error) {
       console.error('Error removing product from favorites:', error);
     }
@@ -59,31 +60,33 @@ const Favorites = () => {
       variants={pageVariants}
     >
       <Header />
-    <div className="favorites-page">
-  <h1>Избранное</h1>
-  {favoriteProducts.length > 0 ? (
-    <div className="product-list">
-      {favoriteProducts.map((product) => (
-        <div key={product.id} className="product-item">
-          <h2>{product.name}</h2>
-          <img src={product.image} alt={product.name} />
-          <p>{product.description}</p>
-          <p>Цена: ${product.price}</p>
-          <button onClick={() => removeFromFavorites(product.id)}>
-            Удалить из избранных
-          </button>
-          <Link to={`/product/${product.id}`} className="view-details">Подробнее</Link>
+      <div className="favorites-page">
+        <h1>Избранное</h1>
+        {favoriteProducts.length > 0 ? (
+          <div className="product-list">
+            {favoriteProducts.map((product) => (
+              <div key={product.id} className="product-item">
+                <h2>{product.name}</h2>
+                <img src={product.image} alt={product.name} />
+                <p>{product.description}</p>
+                <p>Цена: ${product.price}</p>
+                <button onClick={() => removeFromFavorites(product.id)}>
+                  Удалить из избранных
+                </button>
+                <Link to={`/product/${product.id}`} className="view-details">Подробнее</Link>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <p className="no-favorites">Нет избранных.</p>
+        )}
+        <div className="go-home">
+          <Link to="/">Главная</Link>
         </div>
-      ))}
-    </div>
-  ) : (
-    <p className="no-favorites">Нет избранных.</p>
-  )}
-  <div className="go-home">
-    <Link to="/">Главная</Link>
-  </div>
-</div>
-</motion.div>
+        <Footer />
+
+      </div>
+    </motion.div>
   );
 };
 

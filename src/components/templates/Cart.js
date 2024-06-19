@@ -4,6 +4,7 @@ import axios from 'axios';
 import { motion } from 'framer-motion';
 import Header from './header';
 import './App.css';
+import Footer from './footer.js'
 
 const Cart = () => {
   const [cartItems, setCartItems] = useState([]);
@@ -97,6 +98,8 @@ const Cart = () => {
         <div className="go-home">
           <Link to="/">Главная</Link>
         </div>
+        <Footer />
+
       </div>
     </motion.div>
   );

@@ -11,7 +11,7 @@ function Captcha({ onCaptchaChange }) {
     initializeCaptcha(ctx);
   }, []);
 
-  const generateRandomDigit = () => 
+  const generateRandomDigit = () =>
     String.fromCharCode(Math.floor(Math.random() * (57 - 48 + 1) + 48));
 
   const generateCaptchaText = () => {

@@ -5,6 +5,8 @@ import { motion } from 'framer-motion';
 import Header from './header';
 import './App.css';
 import './Catalog.css';
+import Footer from './footer.js'
+
 const Catalog = () => {
   const [products, setProducts] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
@@ -139,6 +141,8 @@ const Catalog = () => {
         <div className="go-home">
           <Link to="/">Главная</Link>
         </div>
+        <Footer />
+
       </div>
     </motion.div>
   );

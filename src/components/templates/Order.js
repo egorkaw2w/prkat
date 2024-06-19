@@ -7,6 +7,7 @@ import emailjs from 'emailjs-com';
 import Header from './header';
 import Captcha from '../templates/Capthca.js';
 import '../templates/App.css';
+import Footer from './footer.js'
 
 const Order = () => {
   const location = useLocation();
@@ -152,9 +153,12 @@ const Order = () => {
         <div className="go-to-home">
           <Link to="/">Главная</Link>
         </div>
+        <Footer />
       </div>
     </motion.div>
+
   );
+
 };
 
 export default Order;
